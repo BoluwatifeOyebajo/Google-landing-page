@@ -1,0 +1,143 @@
+/* Google Replica */
+html, body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.lnXdpd {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.search form {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  padding: 5px 15px;
+  height: 44px;
+  width: 100%;
+  max-width: 560px;
+  box-shadow: none;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.search form:hover {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: #dfe1e5;
+}
+
+.search input[type="text"] {
+  border: none;
+  outline: none;
+  flex: 1;
+  font-size: 16px;
+  background: transparent;
+  color: #202124;
+}
+
+.Google{
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  gap: 12px;
+}
+
+.Google button {
+  padding: 10px 20px;
+  border: 0px solid #dfe1e5;
+  border-radius: 4px;
+  background: #f8f9fa;
+  font-size: 14px;
+  color: #202124;
+  cursor: pointer;
+}
+
+.Google button:hover {
+  border-color: #dadce0;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+.idk{
+  font-size: small;
+  font-family: sans-serif;
+  margin-top: 50px;
+}
+
+.idk a{
+  text-decoration: none;
+}
+.idk a:hover{
+  text-decoration: underline;
+}
+
+.languages{
+ font-family: sans-serif;
+ margin-top: 25px;
+ font-size: small;
+}
+.available{
+  color: inherit;
+}
+.available a{
+  text-decoration: none;
+}
+.available a:hover{
+  text-decoration:underline ;
+}
+
+/* footer*/
+.footer {
+  background: #f2f2f2;
+  font-size: 14px;
+  color: #70757a;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #70757a;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.footer-top {
+  border-bottom: 1px solid #dadce0;
+  padding: 15px 30px;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 30px;
+}
+
+.left-links,
+.right-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
